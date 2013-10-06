@@ -1,9 +1,14 @@
+[alias]
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  undo = reset --hard HEAD~1
+  s = status -s
+  c = clone --recursive
+  cm = commit -m
+  go = checkout -b
+[color]
+  ui = true
+[core]
+  autocrlf = input
 [user]
 	name = Casey Scarborough
 	email = caseyscarborough@gmail.com
-[color]
-	ui = true
-[core]
-	autocrlf = input
-[alias]
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit

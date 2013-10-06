@@ -1,0 +1,8 @@
+# Mac Crap
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# Thumbnail cache files
+._*
+Thumbs.db

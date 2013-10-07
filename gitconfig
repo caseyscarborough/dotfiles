@@ -5,6 +5,14 @@
   c = clone --recursive
   cm = commit -m
   go = checkout -b
+  rao = remote add origin
+  rso = remote set-url origin
+  rau = remote add upstream
+  rsu = remote set-url upstream
+  ra = remote add
+  rs = remote set-url
+  fu = fetch upstream
+  mu = merge upstream/master
 [color]
   ui = true
 [core]

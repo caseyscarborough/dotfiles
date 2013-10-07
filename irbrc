@@ -4,5 +4,6 @@
   begin
     require gem
   rescue LoadError
+    puts "#{gem} not installed"
   end
 end

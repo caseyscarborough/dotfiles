@@ -6,3 +6,5 @@
 # Thumbnail cache files
 ._*
 Thumbs.db
+
+.swp

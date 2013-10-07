@@ -13,3 +13,5 @@ rake install
 ```
 
 Nothing will be overwritten without your permission.
+
+> _Note: On some Linux systems, you may have to manually install zsh first by running `sudo apt-get install zsh`._

@@ -41,7 +41,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/bin/mongodb/bin:/Users/Casey/.rvm/gems/ruby-2.0.0-p247/bin:/Users/Casey/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/Casey/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/Casey/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/texbin
+export PATH=$PATH:/usr/local/bin/rubinius/bin:/usr/local/bin/mongodb/bin:/Users/Casey/.rvm/gems/ruby-2.0.0-p247/bin:/Users/Casey/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/Casey/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/Casey/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/texbin
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/Users/Casey/.gvm/bin/gvm-init.sh" ]] && source "/Users/Casey/.gvm/bin/gvm-init.sh"

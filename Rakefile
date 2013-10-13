@@ -7,7 +7,7 @@ task :install do
   switch_to_zsh
   replace_all = false
   files = Dir['*'] - %w[Rakefile README.md oh-my-zsh]
-  files << "oh-my-zsh/custom/caseyscarborough.theme"
+  files << "oh-my-zsh/custom/caseyscarborough.zsh-theme"
   files.each do |file|
     if File.exist?(File.join(ENV['HOME'], ".#{file}"))
       if replace_all

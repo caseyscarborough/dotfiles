@@ -1,10 +1,11 @@
 local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 
-local user_host='%{$terminfo[bold]$fg[green]%}%n@%m%{$reset_color%}'
-local current_dir='%{$terminfo[bold]$fg[blue]%} %~%{$reset_color%}'
+local user='%{$terminfo[bold]$fg[red]%}%n%{$reset_color%}'
+local host='%{$terminfo[bold]$fg[blue]%}%m%{$reset_color%}'
+local current_dir='%{$terminfo[bold]$fg[green]%} %~%{$reset_color%}'
 local git_branch='$(git_prompt_info)%{$reset_color%}'
 
-PROMPT="╭ ${user_host} ${current_dir} ${git_branch}
+PROMPT="╭ ${user}@${host} ${current_dir} ${git_branch}
 ╰ %B$%b "
 RPS1="${return_code}"
 

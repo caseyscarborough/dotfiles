@@ -18,3 +18,7 @@ set autoindent
 " Turn wrap off
 set nowrap
 
+" Open NERDTree automatically when vim starts if no files were specified
+autocmd vimenter * if !argc() | NERDTree | endif
+map <C-n> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif

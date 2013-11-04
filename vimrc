@@ -3,8 +3,8 @@ execute pathogen#infect()
 " Syntax highlighting options
 syntax on
 set background=dark
-let g:solarized_termcolors = 256
-let g:solarized_termtrans = 1
+let g:solarized_termcolors=256
+let g:solarized_termtrans=1
 colorscheme solarized
 
 " Change tab default to 4 spaces

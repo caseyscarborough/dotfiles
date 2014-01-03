@@ -1,11 +1,12 @@
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	undo = reset --hard HEAD~1
-	a = add .
+	a = add -u .
 	s = status -s
 	cr = clone --recursive
 	c = commit -m
 	p = push -u origin master
+	pp = push -u origin +master
 	go = checkout -b
 	rao = remote add origin
 	rso = remote set-url origin

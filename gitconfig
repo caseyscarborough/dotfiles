@@ -20,10 +20,10 @@
 	ui = true
 [core]
 	autocrlf = input
-	excludesfile = /Users/Casey/.gitignore_global
+	excludesfile = /Users/Casey/.gitignore
 [user]
-	name = Casey Scarborough
 	email = caseyscarborough@gmail.com
+	name = Casey Scarborough
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 

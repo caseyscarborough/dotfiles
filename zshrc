@@ -41,9 +41,13 @@ plugins=(git osx)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/bin/rubinius/bin:/usr/local/bin/mongodb/bin:/Users/Casey/.rvm/gems/ruby-2.0.0-p247/bin:/Users/Casey/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/Casey/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/Casey/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/texbin
+export GOPATH=$HOME/gopath
+export MYSQL_HOME=/usr/local/mysql
+export RVM=/Users/Casey/.rvm
+export LEJOS_NXT_JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_37-b06-434.jdk/Contents/Home
+
+export PATH=$PATH:/usr/local/bin/lejos/bin:/usr/local/bin/rubinius/bin:/usr/local/bin/mongodb/bin:$RVM/gems/ruby-2.0.0-p247/bin:$RVM/gems/ruby-2.0.0-p247@global/bin:$RVM/rubies/ruby-2.0.0-p247/bin:$RVM/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/texbin:$GOPATH:$GOPATH/bin:$MYSQL_HOME/bin
+
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/Users/Casey/.gvm/bin/gvm-init.sh" ]] && source "/Users/Casey/.gvm/bin/gvm-init.sh"
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

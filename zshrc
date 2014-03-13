@@ -46,8 +46,6 @@ export MYSQL_HOME=/usr/local/mysql
 export RVM=/Users/Casey/.rvm
 export LEJOS_NXT_JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_37-b06-434.jdk/
 export VAGRANT_DEFAULT_PROVIDER=parallels
-Contents/Home
-
 export PATH=$PATH:/usr/local/bin/lejos/bin:/usr/local/bin/rubinius/bin:/usr/local/bin/mongodb/bin:$RVM/gems/ruby-2.0.0-p247/bin:$RVM/gems/ruby-2.0.0-p247@global/bin:$RVM/rubies/ruby-2.0.0-p247/bin:$RVM/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/texbin:$GOPATH:$GOPATH/bin:$MYSQL_HOME/bin
 
 

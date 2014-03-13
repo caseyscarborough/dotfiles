@@ -2,7 +2,7 @@
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	undo = reset --hard HEAD~1
 	a = add -u .
-	s = status -s
+	s = status
 	cr = clone --recursive
 	c = commit -m
 	p = push -u origin master

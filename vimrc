@@ -8,9 +8,9 @@ let g:solarized_termtrans=1
 colorscheme codeschool 
 
 " Change tab default to 4 spaces
-set tabstop=4
 set expandtab
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set guifont=Consolas:h14
 
 " Set auto indenting to on.

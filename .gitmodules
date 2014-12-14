@@ -1,6 +1,12 @@
 [submodule "nerdtree"]
-    path = vim/bundle/nerdtree
-    url = git@github.com:scrooloose/nerdtree.git
+  path = vim/bundle/nerdtree
+  url = git@github.com:scrooloose/nerdtree.git
 [submodule "vim/bundle/colorschemes"]
 	path = vim/bundle/colorschemes
 	url = git@github.com:flazz/vim-colorschemes.git
+[submodule "vim/bundle/vim-easymotion"]
+	path = vim/bundle/vim-easymotion
+	url = git@github.com:Lokaltog/vim-easymotion.git
+[submodule "vim/bundle/vim-surround"]
+	path = vim/bundle/vim-surround
+	url = git@github.com:tpope/vim-surround.git

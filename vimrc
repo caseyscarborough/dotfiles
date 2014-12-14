@@ -29,3 +29,13 @@ let NERDTreeShowHidden=1
 
 " Allow modifying
 set modifiable
+
+let g:EasyMotion_leader_key = '<Leader>'
+nmap s <Plug>(easymotion-s)
+
+" Turn on case sensitive feature
+let g:EasyMotion_smartcase = 1
+
+" JK motions: Line motions
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
